@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <h2 style="font-size: 25px;">Image Gallery</h2>
+        <div class="row">
+            <div class="gallery-item">
+                <img src="GImage1.jpg" alt="Burger">
+            </div>
+            <div class="gallery-item">
+                <img src="GImage2.jpg" alt="Biryani">
+            </div>
+            <div class="gallery-item">
+                <img src="GImage3.jpg" alt="Chicken Karhai">
+            </div>
+        </div>
+        <div class="row">
+            <div class="gallery-item">
+                <img src="Fries.png" alt="Fries">
+            </div>
+            <div class="gallery-item">
+                <img src="GImage5.jpg" alt="Large Pizza">
+            </div>
+            <div class="gallery-item">
+                <img src="GImage2.jpg" alt="Biryani">
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
